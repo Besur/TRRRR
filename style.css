@@ -12,6 +12,11 @@
     background: url(https://time2watch.in/images/wallpaper/pattern_background.png) repeat
 }
 
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:#000}
+::-webkit-scrollbar-thumb{background:#555}
+::-webkit-scrollbar-thumb:hover{background:#888}
+
 #background_filtre {
     width: 100%;
     height: 150%;
@@ -237,6 +242,8 @@ h3 {
     max-width: 140px;
     max-height: 140px;
     display: block
+	border-radius: 50%;
+	border: 2px solid #404040;
 }
 
 #register_form {
@@ -278,6 +285,7 @@ h3 {
 
 #side-menu a,.sidebar .dropdown-toggle {
     color: #aaa!important
+	padding: 15px;
 }
 
 .sidebar .dropdown-toggle:hover {
@@ -298,7 +306,7 @@ h3 {
 
 .nav-second-level {
     *background: rgba(43,43,43,0.43);
-    background: rgba(21,21,21,.91)
+    background: rgba(21,21,21,.91);
 }
 
 .sidebar {
@@ -384,6 +392,7 @@ h3 {
 
     .sidebar {
         *padding-top: 49px
+		background: rgba(0,0,0,.80);
     }
 
     .navbar-default .navbar-collapse,.navbar-default .navbar-form {
@@ -516,7 +525,9 @@ h1 {
     text-align: center;
     line-height: 165px;
     font-size: 50px;
-    color: rgba(255,255,255,.65)
+    color: rgba(255,255,255,.65);
+	background: rgba(84, 84, 84, 0.36);
+	color: #ffffffc2;
 }
 
 .langue_vfr {
@@ -572,7 +583,8 @@ h1 {
     display: inline-block;
     margin: 2px auto;
     padding: 1px 4px;
-    border-radius: 2px
+    border-radius: 2px;
+	background: #8b8b15;
 }
 
 .inside_liste {
@@ -609,7 +621,8 @@ h1 {
     padding: 10px;
     vertical-align: top;
     text-align: left;
-    color: #fff
+    color: #fff;
+	padding: 15px 10px 10px;
 }
 
 .liste-content-small {
@@ -718,6 +731,16 @@ h1 {
     cursor: pointer
 }
 
+#reglages_fiche {
+	background: #2b2b2bde;
+    color: #fff;
+}
+
+#btn_change_id_TMDb{
+	background: #2b2b2bde;
+    color: #fff;
+}
+
 .fiche_info_div {
     padding-top: 20px
 }
@@ -742,6 +765,8 @@ h1 {
 
 .links {
     margin-left: 2%
+	max-width: 530px;
+	margin: auto;
 }
 
 .links a {
@@ -805,7 +830,8 @@ h1 {
     text-align: justify;
     *border-bottom: 1pxsolid#292929;
     *background: rgba(66,66,66,0.38);
-    background: rgba(21,21,21,.91)
+    background: rgba(21,21,21,.91);
+	max-width: 860px;
 }
 
 .actor {
@@ -1174,7 +1200,13 @@ h1 {
     color: #000;
     padding: 7px 9px;
     margin: 10px 5px;
-    display: inline-block
+    display: inline-block;
+	background: #2b2b2bde;
+	color: white;
+	padding: 7px 9px;
+	margin: 10px 5px;
+	display: inline-block;
+	border: 1px solid #ffffff30;
 }
 
 #section_alpha {
@@ -1224,6 +1256,7 @@ h1 {
 
 .panel-no-border>.panel-body {
     padding: 0
+	text-align: center;
 }
 
 .etape {
